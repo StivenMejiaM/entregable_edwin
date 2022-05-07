@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>document</title>
+</head>
+<body>
+    <header>
+        <h1>Aún no estás registrado</h1>
+        <nav>
+          <a href="home.html">Inicio</a>
+          <a href="registro.html">Registrarse</a>
+          <a href="login.html">Login</a>
+        </nav>
+      </header>
+      <hr>
+      <main>
+        <form id="frm-register" action="">
+            <div class="cabeza">
+                <img id="perfil"src="Imagenes/blake.gif" alt=""> 
+            </div>        
+            
+            <input id="nombre" required type="text" placeholder="Full Name" maxlength="25">
+            <div class="containerV">
+              <i id="validacion" name="validacion"class="fa-solid fa-circle-check"></i>
+              <i id="negacion" class="fa-solid fa-circle-xmark"></i>
+            </div>
+            <div class="aviso">
+              <p id="information"></p>
+            </div>
+            <div id ="mensaje"></div>
+    
+            <input  id="apellido" required type="text" placeholder="userName">
+            <div class="containerV2">
+              <i id="validacion2" name="validacion"class="fa-solid fa-circle-check"></i>
+              <i id="negacion2" class="fa-solid fa-circle-xmark"></i>
+            </div>
+            <div class="information1">
+              <p id="information1"></p>
+            </div>        
+            <div id ="mensaje1"></div>
+    
+            <input id="contrasena" required type="password" placeholder="Insert your password">
+            <div class="containerP">
+              <i id="validacion3" name="validacion"class="fa-solid fa-circle-check"></i>
+              <i id="negacion3" class="fa-solid fa-circle-xmark"></i>
+            </div>
+            <div class="mensaje2">
+              <p id="mensaje2"></p>
+            </div>
+    
+    
+            <input id="confirmaciones" required type="password" placeholder="confirm your password">
+            <div class="containerP2">
+              <i id="validacion4" name="validacion"class="fa-solid fa-circle-check"></i>
+              <i id="negacion4" class="fa-solid fa-circle-xmark"></i>
+            </div>
+            <div class="mensaje3">
+              <p id="mensaje3"></p>
+            </div>
+
+            <div class="buttons">
+              <button class="myButton">Register</button>
+              <a href="login.html" target="_blank" rel="noopener noreferrer">Login</a>          
+            </div>
+          </fieldset>
+        </form>
+      </main>
+      <script src="java.js"></script>
+</body>
+</html>
